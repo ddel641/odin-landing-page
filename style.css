@@ -3,12 +3,19 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    min-height: 100vh;
+    /* justify-content: space-between; */
 }
+.footer,
 .header {
     background-color: #1f2937;
     padding: 16px;
     display: flex;
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.header { 
     justify-content: space-around;
     align-items: center;
 }
@@ -31,4 +38,14 @@ ul.menu {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.footer { 
+    justify-content: center;
 }
