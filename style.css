@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    font-family:Arial, Helvetica, sans-serif
     /* justify-content: space-between; */
 }
 
@@ -53,11 +54,14 @@ ul.menu {
     flex: 1;
 }
 
-.section-1 {
+.section-1,
+.section-2,
+.section-3,
+.section-4 {
     display: flex;
     padding: 50px;
     justify-content: space-around;
-    /* gap: 32px; */
+    align-items: center;
 }
 
 .section-1-text {
@@ -67,7 +71,7 @@ ul.menu {
 
 .section-1-text .main-text {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 1000;
     color: #f9faf8;
 }
 
@@ -96,6 +100,43 @@ button.signup {
     justify-content: center;
     align-items: center;
 }
+
+.section-2 {
+    flex-direction: column;
+}
+
+.section-2 .title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 1000;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.img-group {
+    width: 150px;
+    text-align: center;
+}
+
+.img-placeholder {
+    height: 150px;
+    width: 150px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
 
 .footer { 
     justify-content: center;
