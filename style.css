@@ -81,14 +81,23 @@ ul.menu {
     margin-bottom: 8px;
 }
 
-button.signup {
-    color: white;
-    font-weight: bold;
+.action-box,
+button {
     background-color: #3882f6;
+    color: white;
     border: none;
     border-radius: 4px;
-    padding: 4px 16px;
+}
 
+button {
+    font-weight: bold;
+    padding: 4px 16px;
+}
+
+button.invert {
+    border: 2px;
+    border-style: solid;
+    border-color: white;
 }
 
 .section-1-img {
@@ -140,6 +149,29 @@ button.signup {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.action-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 600px;
+}
+
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-headline {
+    font-weight: bold;
+}
+
+.action-body {
+    font-size: 12px;
 }
 
 .quote-text {
